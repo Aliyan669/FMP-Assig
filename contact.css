@@ -1,0 +1,261 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+font-family:Monotype Corsiva ; 
+
+}
+.navbar{
+background-color: rgb(245, 176, 202);
+font-weight: bold ;
+font-family:Monotype Corsiva ; 
+
+}
+
+a{
+color: rgb(232, 244, 253) !important;
+font-size: 18px;
+cursor: pointer;
+font-family: Monotype Corsiva ; 
+}
+a:hover{
+border-bottom:3px solid white !important;
+color: white !important;
+
+}
+#hcolor{
+color: white !important;
+font-size: 22px;
+border-bottom:3px solid white !important;
+
+} 
+
+a:hover{
+text-decoration: none;
+}
+#bor{
+border:none;
+}
+.sec1{
+  margin-top: 70px ;
+  
+ 
+}
+.carousel-myitem{
+  background-image: linear-gradient(to top, black, black);
+}
+.carousel-myitem img{
+  height: 90vh;
+  width: 100%;
+  opacity: 0.7;
+}
+.curselhead{
+  color:white; 
+  font-weight: bold;
+  margin: 0px 200px 180px 0px;
+  font-size: 80px;
+
+}
+
+#crusel{
+  width: 100%;
+  height: 60%;
+ 
+}
+.image-slider{
+  padding: 0px !important;
+  position: relative;
+  
+}
+
+
+
+.sec2{
+  padding: 10px;
+  }
+  .contact_form{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 25px;
+  
+  }
+  .contact_form .myForm{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+  }
+  .contact_form h1, .myForm label {
+    font-weight: bold;
+    color: rgb(241, 146, 181) ;
+  }
+  .myForm label{
+      font-weight: 800;
+  }
+  .myForm input{
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 5px;
+      border: 2px solid  rgb(241, 146, 181);
+      border-radius: 10px ;
+  }
+  .myForm textarea{
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 2px solid rgb(241, 146, 181) ;
+  }
+  .myForm input:focus,.myForm textarea:focus{
+      outline: none;
+      border: 2px solid rgb(241, 146, 181)  !important;
+      box-shadow: rgb(241, 146, 181)  0px 7px 29px 0px;
+  
+  }
+  .myForm .submit{
+      width: 30%;
+      padding: 10px;
+      margin-top: 20px;
+      background: rgb(241, 146, 181);
+      border: 2px solid rgb(241, 146, 181);
+      color: white !important;
+      font-weight: bold;
+      border-radius: 5px;
+  }
+  
+  .side_img{
+      padding: 60px 20px;
+      
+      height: 704px;
+      width: 90%;
+      /* height: 100%; */
+  }
+  .contact_img{
+    margin-left: 10px ;
+  }
+  .side_img img{
+      width: 80%;
+      height: 80vh;
+      border-radius: 30px;
+     
+  }
+ 
+
+  /* ////////////foooter///////// */
+
+
+  .footpara{
+    font-family: Monotype Corsiva;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  
+  .myfooter {
+    /* background: radial-gradient(#00272C,#000); */
+    background-color: rgb(245, 176, 202);
+    height: 50vh;
+    margin-top: 100px;
+  
+    
+  }
+  
+  .section6 {
+    max-width: 90%;
+    min-width: 90%;
+    margin: auto;
+  }
+  
+  .footer_top {
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+  
+  .footer_top .foo-col1 {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .footer_top .foo-col1 img{
+    margin-left: 10px;
+  }
+  .foo-col1 p {
+    padding-left: 35px;
+    display: flex;
+   
+  }
+  .foo-col2,.foo-col4{
+    display: flex;
+    justify-content: end;
+    margin-left:200px;
+    align-items: end;
+  }
+  .foo-col2 ul,.foo-col3 ul{
+  list-style: none;
+  }
+  .foo-col2 ul li,.foo-col3 ul li{
+    list-style: none;
+    padding: 3px 0px;
+    font-size: 18px;;
+    }
+    .foo-col2 i,.foo-col3 i{
+        margin-right: 15px;
+    }
+  .li_head{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    font-family: Monotype Corsiva ; 
+  
+  }
+  .footer_bottom {
+    color: black;
+    border-top: 1px solid black;
+    font-weight: bold;
+   
+    padding: 10px 0px;
+    margin: auto 56px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:500px){
+a{
+  font-size: 14px;
+
+
+}
+.side_img img{
+  width: 90%;
+  height: 90%;
+}
+
+#crusel{
+  width: 100%;
+  height: 50vh;
+ 
+}
+.foo-col2,.foo-col4{
+  display: flex;
+  justify-content: end;
+  margin-left: 0px;
+  margin-right: 100px;
+}
+.myfooter{
+  height: 85vh;
+}
+
+}
